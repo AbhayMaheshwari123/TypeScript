@@ -24,3 +24,23 @@ form.addEventListener('submit', (e:Event)=>{
         type.value,tofrom.value,details.value,amount.valueAsNumber
     )
 })
+
+///Interface//
+
+interface Person{
+    name:string;
+    age:number;
+    gender:string;
+}
+
+const me:Person={
+    name:'Abc',
+    age:23,
+    gender:'M'
+};
+
+const greetperson=(person:Person)=>{
+    console.log('hello',person.name)
+}
+
+greetperson(me)

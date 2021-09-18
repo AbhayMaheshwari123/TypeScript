@@ -15,3 +15,12 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     console.log(type.value, tofrom.value, details.value, amount.valueAsNumber);
 });
+const me = {
+    name: 'Abc',
+    age: 23,
+    gender: 'M'
+};
+const greetperson = (person) => {
+    console.log('hello', person.name);
+};
+greetperson(me);
