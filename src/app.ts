@@ -43,4 +43,4 @@ const greetperson=(person:Person)=>{
     console.log('hello',person.name)
 }
 
-greetperson(me)
+greetperson(me) 

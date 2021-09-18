@@ -1,3 +1,5 @@
+import { Hasformat } from "../Hasformat";
+
 export class Invoice {
     
 
